@@ -1,0 +1,108 @@
+/* cor do texto selecionado pelo mouse */
+::-moz-selection{
+    background:#5DBA8C;
+    color:#FFF;
+}
+::selection {
+    background:#5DBA8C;
+    color:#FFF;
+}
+
+
+
+/* Layout da barra de menus */
+.navbar-custom {
+    background-color: #3A8861 !important;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #3A8861/*rgba(255,255,255,.8);*/
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/* layout da logo na barra superior */
+.tree-logo {
+    width: 158px;
+    height: 48px;
+    z-index: 10;
+    position: absolute;
+    margin-bottom: -20px;
+    margin-top: -23px;
+    margin-right: 8px;
+}
+
+.cor-fundo{
+	background-color: #ecf0f1;
+}
+/* layout do conteudo da página */
+.how-section1{    
+    padding-top: 0.10%;
+	padding-bottom: 3.5%;
+}
+.how-section2{    
+    padding-top: 10px;
+    margin-top:: 10px;
+}
+.how-section1 h4{
+    color: #3A8861;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #5DBA8C;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+
+a:hover{
+    text-decoration:none;
+}
+.section-padding {
+	padding: 60px 0;
+}
+.bottom {
+    background-color: #233B2F;
+}
+.bottom .copyright {
+    color: white;
+    font-weight: 600;
+}
+.copyright a {
+    color: white;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: white;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: white;
+}
+.mrtop {
+	margin-top: 20px;
+}
